@@ -15,9 +15,9 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/LineageOS/android_device_motorola_sm6225-common
+          kernel-url: https://github.com/LineageOS/android_kernel_motorola_sm6225
           kernel-dir: msm-4.19
-          kernel-branch: taffy
+          kernel-branch: rhode
           config: vendor/ext_config/rhode-default.config
           arch: arm64
           aosp-gcc: true
