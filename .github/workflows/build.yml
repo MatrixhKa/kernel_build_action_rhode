@@ -16,7 +16,7 @@ jobs:
       uses: MatrixhKa/kernel_build_action_rhode@main
       with:
           kernel-url: https://github.com/LineageOS/android_kernel_motorola_sm6225
-          kernel-dir: msm-4.19
+          kernel-dir: /
           kernel-branch: taffy
           config: vendor/ext_config/rhode-default.config
           arch: arm64
