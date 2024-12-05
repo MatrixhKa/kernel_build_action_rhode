@@ -30,7 +30,7 @@ jobs:
       with:
           kernel-url: https://github.com/LineageOS/android_kernel_motorola_sm6225
           kernel-dir: /
-          kernel-branch: taffy
+          kernel-branch: lineage-21
           config: vendor/ext_config/rhode-default.config
           arch: arm64
           aosp-gcc: true
