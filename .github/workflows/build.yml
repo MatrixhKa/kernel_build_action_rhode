@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: dabao1955/kernel_build_action@main
+      uses: MatrixhKa/kernel_build_action_rhode@main
       with:
           kernel-url: https://github.com/LineageOS/android_kernel_motorola_sm6225
           kernel-dir: msm-4.19
